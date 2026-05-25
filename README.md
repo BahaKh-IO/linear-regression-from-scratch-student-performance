@@ -46,27 +46,21 @@ Only:
 ## ✔ Feature Scaling
 Implemented standardization manually using:
 
-\[
-X_{scaled} = \frac{X - \mu}{\sigma}
-\]
+X_scaled = (X - μ) / σ
 
 ---
 
 ## ✔ Prediction Function
 Implemented the hypothesis function manually:
 
-\[
-\hat{y} = Xw + b
-\]
+y_pred = Xw + b
 
 ---
 
 ## ✔ Cost Function (MSE)
 Implemented Mean Squared Error manually:
 
-\[
-MSE = \frac{1}{m} \sum (\hat{y} - y)^2
-\]
+MSE = (1/m) * Σ(y_pred - y)^2
 
 ---
 
@@ -82,13 +76,8 @@ using vectorized NumPy operations.
 ## ✔ Gradient Descent
 Implemented parameter optimization manually:
 
-\[
-w := w - \alpha dw
-\]
-
-\[
-b := b - \alpha db
-\]
+w = w - α * dw
+b = b - α * dw
 
 ---
 
